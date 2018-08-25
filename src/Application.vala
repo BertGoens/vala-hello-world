@@ -38,12 +38,12 @@ public class MyApp : Gtk.Application {
         });
         */
 
-        var label = new Gtk.Label ("Hello Again World!");
+        var label = new Gtk.Label _("Hello Again World!");
 
         var main_window = new Gtk.ApplicationWindow (this);
         main_window.default_height = 300;
         main_window.default_width = 300;
-        main_window.title = "Hello World";
+        main_window.title = _"Hello World";
         
         // main_window.add (button_hello);
         main_window.add (label);
